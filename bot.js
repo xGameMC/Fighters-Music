@@ -32,11 +32,6 @@ client.user.setGame(`xGameMC`,"")
 
 
 
-client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
-  	}
-});
 
 
 
@@ -119,7 +114,7 @@ client.on('message', async msg => { // eslint-disable-line
 			        .setDescription(`**الرجآء من حضرتك إختيآر رقم المقطع** :
 ${videos.map(video2 => `[**${++index} **] \`${video2.title}\``).join('\n')}`)
 //by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
-					.setFooter("hi")
+					.setFooter("Fighters Music")
 					msg.channel.sendEmbed(embed1).then(message =>{message.delete(20000)})
 					
 					// eslint-disable-next-line max-depth
@@ -263,7 +258,7 @@ function play(guild, song) {
 
 
 client.on("message", message => {
- if (message.content === `$help`) {
+ if (message.content === `-WoFiGth`) {
   const embed = new Discord.RichEmbed() //by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
       .setColor("#000000")//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
       .setDescription(`
